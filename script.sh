@@ -10,6 +10,7 @@ do
     cp -r /tejas2/birthday_wish_card/styles.css /var/www/html/
     cp -r /tejas2/birthday_wish_card/vite.config.js /var/www/html/
     sleep 10
+    echo "This is an infinite loop"
 done
 
 
