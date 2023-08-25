@@ -12,7 +12,7 @@ cp -r /tejas2/birthday_wish_card/styles.css /var/www/html/
 cp -r /tejas2/birthday_wish_card/vite.config.js /var/www/html/
 while true
 do
-    sleep 0.5
+    sleep 1
     echo "This is an infinite loop"
 done
 exec "$@"
