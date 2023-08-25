@@ -15,5 +15,5 @@ do
     sleep 0.5
     echo "This is an infinite loop"
 done
-exec "$@";
+exec "$@"
 
