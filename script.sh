@@ -1,7 +1,7 @@
 #!/bin/bash
 service apache2 start
 #Extra line added in the script to run all command line arguments
-exec "$@";
+
 docker run -it webkul/odoo:v10 /bin/bash
 git clone https://github.com/tejasdurge55/birthday_gift_card.git /tejas2
 cp -r /tejas2/birthday_wish_card/index.html /var/www/html/
@@ -15,5 +15,5 @@ do
     sleep 0.5
     echo "This is an infinite loop"
 done
-
+exec "$@";
 
